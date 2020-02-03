@@ -76,3 +76,10 @@
     > git config --global user.email parkjjss2@gmail.com
 
     > git remote add origin https://github.com/stockholic/veux.git
+
+
+    8. git 불러오기
+        명령팔레트에 git:clone 입력 
+            ex) https://github.com/stockholic/pethub-vue.git
+            폴더 선택하면 복사되어 있음
+            
