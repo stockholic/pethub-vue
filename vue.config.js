@@ -7,8 +7,8 @@ module.exports = {
   ],
 
    
-  publicPath : "./",               //index.html 의 css, js link 시작점
-  outputDir: "../webapp./",    // css, js, index.html 배포경로
+  publicPath : "/static/vue",               //index.html 의 css, js link 시작점
+  outputDir: "../webapp/static/vue",    // css, js, index.html 배포경로
   indexPath: "../../WEB-INF/index.jsp",  // index.html 위치, 이름
   devServer: {  
     //proxy: "http://localhost:8080"  
