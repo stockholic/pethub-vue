@@ -1,5 +1,4 @@
 <template>
-  <div>
     <component v-bind:is="selectedComponent" 
       :page="page" 
       :seqNo="seqNo"
@@ -7,8 +6,6 @@
       @goList="list"
     >
     </component>
-    
-  </div>
 </template>
 
 <script>

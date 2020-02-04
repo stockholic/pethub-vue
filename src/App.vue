@@ -53,7 +53,7 @@
 
     <v-content>
       <router-view></router-view>
-    </v-content>
+  </v-content>
 
     <v-footer app height="30" class="grey lighten-4">
       <span color="grey darken-3">&copy; 2019</span>

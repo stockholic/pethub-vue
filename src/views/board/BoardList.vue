@@ -1,5 +1,5 @@
  <template>
-    <v-container>
+    <v-container fluid>
       <h1>List {{ page }} {{ seqNo }}</h1>
 
       <p v-for="(lst, idx) in dataList" :key="idx" @click="goPage(lst.seqNo)" style="cursor:pointer">{{ lst.title }}</p>
@@ -32,7 +32,7 @@ import { mapState, mapGetters } from 'vuex';
     data() {
       return {
         dataList : [
-          {seqNo : 111, title : "가나다라 마바사 1" }
+          {seqNo : 111, title : "가나다라 마바사 111" }
           ,{seqNo : 222, title : "가나다라 마바사 2" }
           ,{seqNo : 333, title : "가나다라 마바사 3" }
         ],

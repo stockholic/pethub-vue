@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container fluid>
     <div>
         <h1>Form</h1>
         <p>params : {{ $route.params }}</p>
